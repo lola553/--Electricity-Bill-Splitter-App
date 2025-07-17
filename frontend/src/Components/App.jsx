@@ -16,6 +16,7 @@ function App() {
       ...prevValue,
       [name]: value,
     }));
+    console.log(event)
   }
 
   function resetInputs() {
